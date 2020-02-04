@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css_formulaire.css">
+    <link rel="javascript" href="formulaire.js">
+  <script LANGUAGE="javascript">
+function controle(form1) {
+var test = document.form1.input.value;
+alert("Bien envoyé : " + test);
+}
+
+</script>
+</head>
+<body>
+  
+  <h1>Formulaire de demande résolution de problème </h1>
+  <div class="MiseEnForme">
+  <fieldset>
+<form NAME="form1">
+  Nom du projet <INPUT TYPE="text" NAME="input" VALUE="" class="case1">
+  <br>
+  <br>
+Nombre de tickets à récupérer <INPUT TYPE="text" NAME="input" VALUE="" class="case2"><BR>
+  <br>
+    <input TYPE="button" NAME="bouton" VALUE="Récupérer" onClick="controle(form1)" class="bouton">
+      <br>
+        Liste des tickets
+        <br>
+      <textarea NAME="nom" ROWS=x COLS=y id="texte">
+      </textarea><br>
+</form>
+</fieldset>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+.MiseEnForme
+{
+    height : 1024px;
+    width:400px;
+    margin: auto;
+    align-items: center;
+}
+.case1
+{
+    margin-left:105px ;
+}
+.case2
+{
+    margin-left: 5px;
+}
+.bouton
+{
+    margin-left: 265px;
+}
